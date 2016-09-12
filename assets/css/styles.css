@@ -1,0 +1,49 @@
+/*main style sheet*/
+.row.content {min-height: 150px}
+
+.sidenav {
+    background-color: #f1f1f1;
+    height: 100%;
+}
+
+.headerBar{
+    width: 100%;
+    height:10px;
+    /*make it look pretty*/
+    background: #337ab7;
+    background: -webkit-linear-gradient(left, #337ab7 , #f1f1f1);
+    background: -o-linear-gradient(right, #337ab7, #f1f1f1);
+    background: -moz-linear-gradient(right, #337ab7, #f1f1f1);
+    background: linear-gradient(to right, #337ab7 , #f1f1f1);
+}
+.navbar-default {
+    background: none;
+    border: none;
+}
+.navbar-default .navbar-toggle {
+    background-color: #fff;
+    margin-top: -30px;
+}
+footer {
+    background-color: #555;
+    color: white;
+    padding: 15px;
+}
+
+#map_canvas{
+    width: 100%;
+    height: 500px;
+}
+
+@media screen and (max-width: 1024px) {
+    #map_canvas{
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 777px) {
+    .sidenav {
+        height: auto;
+    }
+    
+}
